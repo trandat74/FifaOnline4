@@ -1,0 +1,9 @@
+.banner{
+    display: flex;
+    max-height: 47rem;
+    .banner__img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}

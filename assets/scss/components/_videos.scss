@@ -1,0 +1,85 @@
+.videos {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    .video__title {
+        position: relative;
+    }
+    .video__title::after {
+        content: "";
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: -1rem;
+        width: 15rem;
+        height: 0.25rem;
+        background: $primary-color;
+    }
+    .videos__content {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        column-gap: 2rem;
+
+        .videos__wrap {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            & iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .videos__wraps {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+
+            .videos__list {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                row-gap: 2rem;
+                overflow-y: auto;
+                overflow-x: hidden;
+         
+                .videos__item {
+                    cursor: pointer;
+                    font-size: $normal-font-size;
+                    column-gap: 2rem;
+                    display: flex;
+                    min-width: 3rem;
+                    height: auto;
+                    .videos__thumbnail {
+                        max-width: 20rem;
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+
+              
+            }
+            .videos__list::-webkit-scrollbar {
+                width: 0.5rem;
+               
+            }
+            .videos__list::-webkit-scrollbar-track {
+                background: #f1f1f1;
+              }
+            .videos__list::-webkit-scrollbar-thumb {
+                height: 2rem;
+                background: #888;
+              }
+              .videos__list::-webkit-scrollbar-thumb:hover {
+                background: #555;
+              }
+        }
+    }
+}

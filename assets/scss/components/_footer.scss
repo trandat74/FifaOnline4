@@ -1,0 +1,17 @@
+.footer{
+    height: max-content;
+    width: 100%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.315);
+    &__container{
+        padding: 2rem 0;
+        display: flex;
+        column-gap: 2rem;
+        width: fit-content;
+        text-align: justify;
+        & img{
+            height: 5rem;
+            object-fit: cover;
+        }
+    }
+}

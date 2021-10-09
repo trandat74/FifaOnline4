@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA Online 4 Việt Nam</title>
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- SCSS -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="app" id="app">
+
+        <header class="header" id="header">
+            <div class="header__container container">
+                <img src="./assets/img/logo.png" alt="logo" class="logo">
+                <div class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            TRANG CHỦ
+                        </li>
+                        <li class="nav__item">
+                            TIN TỨC
+                            <i class='bx bx-chevron-down'></i>
+
+                            <ul class="nav__childs">
+                                <li class="nav__child">
+                                    Sự kiện
+                                </li>
+                                <li class="nav__child">
+                                    Vật phẩm
+                                </li>
+                                <li class="nav__child">
+                                    Giải đấu
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            HỌC VIỆN
+                            <i class='bx bx-chevron-down'></i>
+                            <ul class="nav__childs">
+                                <li class="nav__child">
+                                    Bản tin cập nhật
+                                </li>
+                                <li class="nav__child">
+                                    Hướng dẫn tân HLV
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            CÔNG CỤ
+                            <i class='bx bx-chevron-down'></i>
+                            <ul class="nav__childs">
+                                <li class="nav__child">
+                                    Hỗ trợ
+                                </li>
+                                <li class="nav__child">
+                                    Ranking
+                                </li>
+                                <li class="nav__child">
+                                    VIP Member
+                                </li>
+                                <li class="nav__child">
+                                    Reset Pass 2
+                                </li>
+                                <li class="nav__child">
+                                    Nhập Code
+                                </li>
+                                <li class="nav__child">
+                                    Khóa tài khoản khẩn cấp
+                                </li>
+                                <li class="nav__child">
+                                    Fanpage Facebook
+                                </li>
+                                <li class="nav__child">
+                                    Kênh Youtube
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+              
+                <div class="tool">
+                    <div class="tool__search">
+
+                        <input class="tool__search--hide" type="text" placeholder="Nhập từ khóa...">
+                        <span class="tool__search--none">
+                            <i class='bx bx-search tool__icon '></i>
+
+                        </span>
+
+                    </div>
+                    <a href="#" class="tool__pay">
+                        <img src="./assets/img/logo__f.png" alt="mc/fc">
+                        Nạp FC/MC</a>
+                    <a href="#" class="tool__dowload">
+                        <img src="./assets/img/icon-download.png" alt="icon-download"> Tải miễn phí</a>
+                </div>
+
+                <span class="nav-toggle"" id=" nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </span>
+
+            </div>
+            <div class="nav-moblie">
+                <i class='bx bx-x close-nav'></i>
+                <ul class="nav-mobile__list">
+                    <li class="nav-mobile__item">
+                        TRANG CHỦ
+                    </li>
+                    <li class="nav-mobile__item">
+                        TIN TỨC
+                        <i class='bx bx-chevron-down'></i>
+
+                        <ul class="nav-mobile__childs">
+                            <li class="nav-mobile__child">
+                                Sự kiện
+                            </li>
+                            <li class="nav-mobile__child">
+                                Vật phẩm
+                            </li>
+                            <li class="nav-mobile__child">
+                                Giải đấu
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-mobile__item">
+                        HỌC VIỆN
+                        <i class='bx bx-chevron-down'></i>
+                        <ul class="nav-mobile__childs">
+                            <li class="nav-mobile__child">
+                                Bản tin cập nhật
+                            </li>
+                            <li class="nav-mobile__child">
+                                Hướng dẫn tân HLV
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-mobile__item">
+                        CÔNG CỤ
+                        <i class='bx bx-chevron-down'></i>
+                        <ul class="nav-mobile__childs">
+                            <li class="nav-mobile__child">
+                                Hỗ trợ
+                            </li>
+                            <li class="nav-mobile__child">
+                                Ranking
+                            </li>
+                            <li class="nav-mobile__child">
+                                VIP Member
+                            </li>
+                            <li class="nav-mobile__child">
+                                Reset Pass 2
+                            </li>
+                            <li class="nav-mobile__child">
+                                Nhập Code
+                            </li>
+                            <li class="nav-mobile__child">
+                                Khóa tài khoản khẩn cấp
+                            </li>
+                            <li class="nav-mobile__child">
+                                Fanpage Facebook
+                            </li>
+                            <li class="nav-mobile__child">
+                                Kênh Youtube
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+       
+            </div>
+        </header>
+
+
+        <main>
+            <section class="section__banner banner">
+                <img src="./assets/img/banner__01.png" class="banner__img" alt="img">
+            </section>
+
+
+            <section class="section slider section__slider">
+                <div class="container container__slider">
+                    <div class="slider__option">
+                        <div class="slider__btns">
+                            <a href="#" class="slider__dowload slider__btn">
+                                <img src="./assets/img/icon-download.png" alt="dowload">
+                                Tải miễn phí</a>
+                            <a href="#" class=" slider__resign slider__btn">
+                                <img src="./assets/img/icon-user.png" alt="pay">
+                                Đăng ký tài khoản</a>
+                            <a href="#" class=" slider__pay slider__btn">
+                                <img src="./assets/img/logo__f.png" alt="pay">
+                                Nạp FC/MC</a>
+                        </div>
+                        <div class="swiper slider__imgs">
+                            <div class=" slider__wrapper swiper-wrapper">
+                                <img src="./assets/img/slider__01.png" alt="slider" class="slider__img swiper-slide">
+                                <img src="./assets/img/slider__02.png" alt="slider" class="slider__img swiper-slide">
+                                <img src="./assets/img/slider__03.png" alt="slider" class="slider__img swiper-slide">
+                                <img src="./assets/img/slider__04.png" alt="slider" class="slider__img swiper-slide">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="slider__tools">
+
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-support.png" alt="icon-support">
+                            Hỗ trợ</a>
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-ranking.png" alt="icon-support">
+                            RANKKING</a>
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-vip.png" alt="icon-support">
+                            VIP MEMBER</a>
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-reset.png" alt="icon-support">RESET PASS 2</a>
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-coupon.png" alt="icon-support">
+                            NHẬP CODE</a>
+                        <a class="slider__tool slider__support" href="#">
+                            <img src="./assets/img/icon-lock.png" alt="icon-support">
+                            KHÓA TK KHẨN CẤP</a>
+
+
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="section event">
+                <h2 class="event__title section__title">
+                    CÁC SỰ KIỆN ĐANG DIỄN RA
+                </h2>
+                <div class="event__container container">
+
+                    <div class="event__content swiper">
+                        <ul class="event__list swiper-wrapper">
+                            <li class="event__item swiper-slide">
+                                <img src="./assets/img/event__01.png" alt="thumbnil" class="event__thumbnail">
+                                <h3 class="event__name">
+                                    VÒNG‌ ‌QUAY‌ ‌BOE21:‌ ‌SĂN‌ ‌QUÀ‌ ‌CỰC‌ ‌ CHẤT‌ ‌CÙNG‌ ‌DÀN‌ ‌SIÊU‌ ‌SAO‌ ‌BOE21
+                                    MIỄN‌ ‌PHÍ‌ ‌MỖI‌ ‌NGÀY‌
+                                </h3>
+                                <p class="event__desc">
+                                    Hàng loạt cơ hội hấp dẫn để đem về những siêu sao xuất sắc nhất của mùa thẻ mới
+                                    BOE21.
+                                    Thăng cấp đội hình của mình với những gói VTR, BOE mạ vàng cực hiếm cùng hàng tỷ BP
+                                    vô cùng giá trị.
+                                </p>
+                            </li>
+                            <li class="event__item swiper-slide">
+                                <img src="./assets/img/event__02.png" alt="thumbnil" class="event__thumbnail">
+                                <h3 class="event__name">
+                                    [PHIÊN BẢN MỚI] SỔ TAY HUẤN LUYỆN VIÊN 3.0
+                                </h3>
+                                <p class="event__desc">
+                                    Sổ Tay Huấn Luyện Viên sẽ chính thức trở lại với phiên bản 3.0 hoàn toàn mới với
+                                    những phần quà đã khủng nay còn khủng hơn.
+                                    Đặc biệt, mọi sự chú ý sẽ được đổ dồn vào việc
+                                    lần đầu tiên xuất hiện của SỔ TAY SUPER VIP với tính năng và phần thưởng được nâng
+                                    cấp vượt bậc.
+                                </p>
+                            </li>
+                            <li class="event__item swiper-slide">
+                                <img src="./assets/img/event__03.png" alt="thumbnil" class="event__thumbnail">
+                                <h3 class="event__name">
+                                    ĐỒNG HÀNH ĐỘI TUYỂN – RINH SIÊU SAO VIỆT CÙNG FIFA ONLINE 4
+                                </h3>
+                                <p class="event__desc">
+                                    Đây là cơ hội tuyệt vời để các HLV sở hữu cho riêng mình những cầu thủ Việt Nam cùng
+                                    những chiếc code FPT Play hoàn toàn miễn phí.
+                                </p>
+                            </li>
+                            <li class="event__item swiper-slide">
+                                <img src="./assets/img/event__04.png" alt="thumbnil" class="event__thumbnail">
+                                <h3 class="event__name">
+                                    LUCKY BALL THÁNG 10/2021: LẮC BÓNG HAY – NHẬN BOM TẤN LIỀN TAY
+                                </h3>
+                                <p class="event__desc">
+                                    Từ ngày 01/10 đến hết ngày 31/10, sự kiện FO4 LUCKY BALL: LẮC BÓNG HAY –
+                                    NHẬN BOM TẤN LIỀN TAY đã chính thức trở lại với hàng loạt vật phẩm giá trị mà các
+                                    HLV không thể bỏ qua.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class='bx bxs-right-arrow'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bxs-left-arrow'></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section news">
+                <h2 class="section__title news__title">
+                    CÁC TIN NỔI BẬT
+                </h2>
+                <div class="news__container container">
+                    <ul class="news__buttons">
+                        <li class="news__button news__button--active" data-filter="event">
+                            SỰ KIỆN
+                        </li>
+                        <li class="news__button" data-filter="items">
+                            VẬT PHẨM
+                        </li>
+                        <li class="news__button" data-filter="tournaments">
+                            GIẢI ĐẤU
+                        </li>
+                        <li class="news__button" data-filter="all">
+                            <i class='bx bxs-chevrons-right'></i>
+                            XEM TẤT CẢ
+                        </li>
+                    </ul>
+                    <div class="news__content news__content--active" data-list="event">
+                        <ul class="news__list">
+
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/2Spin_BOE21_326x183.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        VÒNG‌ ‌QUAY‌ ‌BOE21:‌ ‌SĂN‌ ‌QUÀ‌ ‌CỰC‌ CHẤT‌ ‌CÙNG‌ ‌DÀN‌ ‌SIÊU‌ ‌SAO‌ ‌BOE21‌
+                                        ‌MIỄN‌ ‌PHÍ‌ ‌MỖI‌ ‌NGÀY‌
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/KV-MBook_326.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        [PHIÊN BẢN MỚI] SỔ TAY HUẤN LUYỆN VIÊN 3.0: ĐẦU TƯ MỘT LẦN – NHẬN QUÀ CẢ THÁNG,
+                                        RA MẮT SỔ TAY SUPER VIP
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/KV-CovuVN-326x183-1.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        ĐỒNG HÀNH ĐỘI TUYỂN – RINH SIÊU SAO VIỆT CÙNG FIFA ONLINE 4: 100% SỞ HỮU CẦU THỦ
+                                        VIỆT NAM
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="news__paginations">
+                            <li class="news__pagination news__pagination--active">
+                                1
+                            </li>
+                            <li class="news__pagination">
+                                2
+                            </li>
+                            <li class="news__pagination">
+                                3
+                            </li>
+                            <li class="news__pagination">
+                                4
+                            </li>
+                            <li class="news__pagination">
+                                5
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="news__content" data-list="items">
+                        <ul class="news__list">
+
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/Goi-EBS-_-BOE-21-all_326x183.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        VÒNG‌ ‌QUAY‌ ‌BOE21:‌ ‌SĂN‌ ‌QUÀ‌ ‌CỰC‌ CHẤT‌ ‌CÙNG‌ ‌DÀN‌ ‌SIÊU‌ ‌SAO‌ ‌BOE21‌
+                                        ‌MIỄN‌ ‌PHÍ‌ ‌MỖI‌ ‌NGÀY‌
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/MM-EBS-dacbiet-T10_326X183.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        [PHIÊN BẢN MỚI] SỔ TAY HUẤN LUYỆN VIÊN 3.0: ĐẦU TƯ MỘT LẦN – NHẬN QUÀ CẢ THÁNG,
+                                        RA MẮT SỔ TAY SUPER VIP
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/Nang-cap-EBS-T10_326x183.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        ĐỒNG HÀNH ĐỘI TUYỂN – RINH SIÊU SAO VIỆT CÙNG FIFA ONLINE 4: 100% SỞ HỮU CẦU THỦ
+                                        VIỆT NAM
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="news__paginations">
+                            <li class="news__pagination news__pagination--active">
+                                1
+                            </li>
+                            <li class="news__pagination">
+                                2
+                            </li>
+                            <li class="news__pagination">
+                                3
+                            </li>
+                            <li class="news__pagination">
+                                4
+                            </li>
+                            <li class="news__pagination">
+                                5
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="news__content" data-list="tournaments">
+                        <ul class="news__list">
+
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/OpenCup2_T8_326x183.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        VÒNG‌ ‌QUAY‌ ‌BOE21:‌ ‌SĂN‌ ‌QUÀ‌ ‌CỰC‌ CHẤT‌ ‌CÙNG‌ ‌DÀN‌ ‌SIÊU‌ ‌SAO‌ ‌BOE21‌
+                                        ‌MIỄN‌ ‌PHÍ‌ ‌MỖI‌ ‌NGÀY‌
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/thumb-cong-bo-tuan-1.jpg" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        [PHIÊN BẢN MỚI] SỔ TAY HUẤN LUYỆN VIÊN 3.0: ĐẦU TƯ MỘT LẦN – NHẬN QUÀ CẢ THÁNG,
+                                        RA MẮT SỔ TAY SUPER VIP
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__thumbnail">
+                                    <img src="./assets/img/KV-CovuVN-326x183-1.png" alt="news__thumbnail">
+                                </div>
+                                <div class="news__data">
+                                    <p class="news__day">
+                                        06.10.2021
+                                    </p>
+                                    <h3 class="news__name">
+                                        ĐỒNG HÀNH ĐỘI TUYỂN – RINH SIÊU SAO VIỆT CÙNG FIFA ONLINE 4: 100% SỞ HỮU CẦU THỦ
+                                        VIỆT NAM
+                                    </h3>
+                                    <p class="news__desc">
+                                        Chào các HLV Sự kiện Vòng Quay BOE21 đã chính thức ra mắt, đem đến hàng loạt cơ
+                                        hội hấp dẫn để các HLV có thể đem về những siêu sao xuất sắc nhất
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="news__paginations">
+                            <li class="news__pagination news__pagination--active">
+                                1
+                            </li>
+                            <li class="news__pagination">
+                                2
+                            </li>
+                            <li class="news__pagination">
+                                3
+                            </li>
+                            <li class="news__pagination">
+                                4
+                            </li>
+                            <li class="news__pagination">
+                                5
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section highlights">
+                <div class="container highlights__container">
+                    <div class="items">
+                        <div class="items__left">
+                            <h3 class="items__title">VẬT PHẨM HOT</h3>
+                            <div class="items__slides swiper">
+                                <div class="swiper-wrapper">
+                                    <img src="./assets/img/Goi-EBS-_-BOE-21-all_956x307.png" alt="slide"
+                                        class="items__slide swiper-slide">
+                                    <img src="./assets/img/MM-EBS-dacbiet-T10_956x307.png" alt="slide"
+                                        class="items__slide swiper-slide">
+                                    <img src="./assets/img/mm-VN-Legends_956x307.png" alt="slide"
+                                        class="items__slide swiper-slide">
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="items__right">
+                            <a href="#" class="items__btn items__pay">
+                                <img src="./assets/img/logo__f.png" alt="logo">
+                                Nạp FC/MC</a>
+                            <a href="#" class="items__btn items__guide">
+                                <img src="./assets/img/icon-guide.png" alt="icon">
+                                Hướng dẫn nạp</a>
+                            <a href="#" class="items__btn items__vip">
+                                <img src="./assets/img/icon-vip.png" alt="icon">
+                                Vip membership</a>
+                        </div>
+                    </div>
+                    <div class="videos">
+                        <h3 class="section__title video__title">
+                            VIDEO NỔI BẬT
+                        </h3>
+                        <div class="videos__content">
+                            <div class="videos__wrap">
+                                <iframe width="782" height="439" src="https://www.youtube.com/embed/IbW4bUKmgLo"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>          
+                            </div>
+                            <div class="videos__wraps">
+                                <ul class="videos__list">
+                                    <li class="videos__item">
+                                        <img src="./assets/img/FO4_360-Thumb4-1920x1080-1-326x183.png"
+                                            alt="videos__thumbnail" class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/frame-6-326x183.png" alt="videos__thumbnail"
+                                            class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/SeaTalk_IMG_1632733099-326x183.png" alt="videos__thumbnail"
+                                            class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/KV-EACCAutumn2021-1920-1-326x183.png" alt="videos__thumbnail"
+                                            class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/Thumnails5-TOP5-1920-1-326x183.png " alt="videos__thumbnail"
+                                            class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/Thumnails5-TOP5-1920-1-326x183.png " alt="videos__thumbnail"
+                                            class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="videos__item">
+                                        <img src="./assets/img/FO4_360-Thumb4-1920x1080-1-326x183.png"
+                                            alt="videos__thumbnail" class="videos__thumbnail">
+                                        <div class="vides__data">
+                                            <h3 class="video__name">
+                                                FO4 360 #06 – BÍ KÍP CẢI THIỆN CHẠY CHỖ TRONG FIFA ONLINE 4
+                                            </h3>
+                                            <p class="video__day">
+                                                02.10.2021
+                                            </p>
+                                            <p class="video__desc">
+                                                EA Sports FIFA Online 4 Vietnam
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <img src="./assets/img/logo-fifaa.png" alt="logo">
+                <p>© 201​8​ ELECTRONIC ARTS INC. EA, EA SPORTS, AND THE EA SPORTS LOGO ARE TRADEMARKS OF ELECTRONIC ARTS
+                    INC.
+                    OFFICIAL FIFA LICENSED PRODUCT. © FIFA NAME AND FIFA'S OFFICIAL LICENSED PRODUCT LOGO ARE COPYRIGHTS
+                    AND/OR TRADEMARKS OF FIFA.
+                    ALL RIGHTS RESERVED. MANUFACTURED UNDER LICENSE BY ELECTRONIC ARTS INC. THE USE OF REAL PLAYER NAMES
+                    AND LIKENESSES IS AUTHORIZED BY
+                    FIFPRO COMMERCIAL ENTERPRISES BV. THE PREMIER LEAGUE LOGO © THE FOOTBALL ASSOCIATION PREMIER LEAGUE
+                    LIMITED 2018.
+                    THE PREMIER LEAGUE LOGO IS A TRADEMARK OF THE FOOTBALL ASSOCIATION PREMIER LEAGUE LIMITED WHICH IS
+                    REGISTERED IN THE
+                    UK AND OTHER JURISDICTIONS. THE PREMIER LEAGUE CLUB LOGOS ARE COPYRIGHT WORKS AND REGISTERED
+                    TRADEMARKS OF THE RESPECTIVE CLUBS.
+                    ALL ARE USED WITH THE KIND PERMISSION OF THEIR RESPECTIVE OWNERS. MANUFACTURED UNDER LICENSE FROM
+                    THE FOOTBALL
+                    ASSOCIATION PREMIER LEAGUE LIMITED. NO ASSOCIATION WITH NOR ENDORSEMENT OF THIS PRODUCT BY ANY
+                    PLAYER IS INTENDED OR
+                    IMPLIED BY THE LICENSE GRANTED BY THE FOOTBALL ASSOCIATION PREMIER LEAGUE LIMITED TO ELECTRONIC
+                    ARTS. ALL OTHER TRADEMARKS
+                    ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS.</p>
+                <img src="./assets/img/icon-age.png" alt="logo">
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

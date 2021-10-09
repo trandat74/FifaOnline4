@@ -1,0 +1,81 @@
+.highlights {
+    background: url(/assets/img/bg-videos.png) center center/cover no-repeat;
+    &__container {
+        .items {
+            border-bottom: 1px solid    $primary-color;
+            padding-bottom: 4rem;
+            display: flex;
+            column-gap: 2rem;
+
+            .items__left {
+                display: flex;
+                column-gap: 2rem;
+                position: relative;
+                justify-content: space-between;
+                .items__title {
+                    border-radius: $border-radius;
+                    background: linear-gradient(to bottom, #6d1aac 0%, #390590 100%);
+                    text-align: center;
+                    padding: 2rem;
+                    transform: rotate(180deg);
+                    writing-mode: vertical-lr;
+                    font-size: $big-font-size;
+                    font-weight: $font-weight-regular;
+                    color: white;
+                }
+                .items__slides {
+                   
+                    
+                    .items__slide {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .swiper-pagination-bullet{
+                        background-color: $primary-color;
+                        height: .5rem;
+                        width: 5rem;
+                        border-radius: 0;
+                    }
+                }
+            }
+            .items__right{
+                display: flex;
+                flex-direction: column;
+                width: 60rem; 
+                min-width: 4rem;
+                justify-content: space-between;
+                .items__btn{
+                    border-radius: $border-radius;
+                    max-height: 7rem;
+                    height: 7rem;
+                    display: flex;
+                    column-gap: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    background:linear-gradient(to right, #5f0076 0%, #8a047f 100%) ;
+                    font-size: $big-font-size;
+                    color: white;
+                    
+                }
+                .items__pay{
+                    background: linear-gradient(to right, #44cdff 0%, #39ffef 100%);
+                    color: $text-color-light;
+                   
+                }
+                .items__guide{
+                    & img{
+                        max-width: 3rem;
+                    }
+                }
+                .items__vip{
+                    background: linear-gradient(to right, #1b20ff 0%, #c304ff 100%);
+                    & img{
+                        max-width: 3rem;
+                    }
+                }
+                
+            }
+        }
+    }
+}

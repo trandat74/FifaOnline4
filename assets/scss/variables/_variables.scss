@@ -1,0 +1,27 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+/*=============== VARIABLES CSS ===============*/
+$header-height: 6.5rem;
+$border-radius: 0.3rem;
+/*========== Colors ==========*/
+$primary-color: #8a4fff;
+$button-gradient: linear-gradient(to right, #1b20ff 0%, #c304ff 100%);
+$text-color: #161616;
+$text-color-light: #202020;
+/*========== Font and typography ==========*/
+$body-font: "Roboto Condensed", sans-serif;
+
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+
+$big-font-size: 1.6rem;
+$normal-font-size:1.3rem;
+$small-font-size: 0.8rem;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;

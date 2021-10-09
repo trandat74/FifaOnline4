@@ -1,0 +1,80 @@
+.event {
+    background: url(/assets/img/bg-events.png) no-repeat center center/cover;
+    position: relative;
+    &__container {
+       
+        .event__content {
+          
+            .event__list {
+               
+                padding-bottom: 3rem;
+                
+                    
+                .event__item {
+                  
+                    .event__thumbnail{
+                        width:100%;
+
+                    }
+                    .event__name{
+                        text-align: center;
+                        margin: 1rem 0;
+                        font-size: $big-font-size;
+                        font-weight: $font-weight-regular;
+                    }
+                    .event__desc{
+                        text-align: center;
+                        font-size: $normal-font-size;
+                    }
+                }
+            }
+          
+            .swiper-pagination-bullet{
+              
+                background-color: $primary-color;
+                height: .5rem;
+                width: 5rem;
+                border-radius: 0;
+            }
+        }
+    }
+    .swiper-button-next{
+        right: 0;
+        background-color: black;
+        color: rgb(102, 102, 102);
+        padding: 5rem 1rem;
+        font-size: 2rem;
+
+    }
+    .swiper-button-prev{
+        left: 0;
+        background-color: black;
+        color: rgb(102, 102, 102);
+        padding: 5rem 1rem;
+        font-size: 2rem;
+
+    }
+    .swiper-button-next::after{
+        display: none;
+    }
+    .swiper-button-prev::after{
+        display: none;
+    }
+    .event__title{
+        position: relative;
+        
+    }
+    .event__title::after{
+        
+        content: "";
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: -1rem;
+
+        width: 15rem;
+        height: 0.25rem;
+        background:linear-gradient(to right, #fe262c 0%, #007fff 100%) ;
+    }
+}
